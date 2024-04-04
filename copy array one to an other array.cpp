@@ -24,8 +24,9 @@ for(int i=0;i<4;i++){
 }
 cout<<"first array :";
 for(int i=0;i<4;i++){
-	cout<<num[i]<<" ";
 	otherArr[i]=num[i]; //this store num arry to other arry variable
+	cout<<num[i]<<" ";
+
 }
 cout<<endl<<"second copy of first array :";
 
@@ -33,4 +34,5 @@ cout<<endl<<"second copy of first array :";
 for(int j=0;j<4;j++){
 	cout<<otherArr[j]<<" ";
 }
+return 0;
 }

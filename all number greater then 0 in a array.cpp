@@ -19,4 +19,5 @@ if(num[i]<=0){
 	else{
 		cout<<"fals";
 	}
+	return 0;
 }
