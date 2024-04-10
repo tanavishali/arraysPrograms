@@ -10,5 +10,5 @@ int main(){
 sum=sum+num[i];
 average=sum/length; //length is 5
 	}
-	cout<<average;
+	cout<<" average:"<<average<<" sum:"<<sum;
 }

@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 	int number[5]={11,43,74,0,2};
-	int search,value=0;
+	int search,value=-1;
 	for(int i=0;i<5;i++){
 		cout<<number[i]<<endl;
 	}
@@ -10,13 +10,13 @@ int main(){
 	cin>>search;
 	for(int i=0;i<5;i++){
 		if(search==number[i]){
-			cout<<i<<endl;
+			cout<<"index number"<<i<<endl;
 			value=i; //store the index value in other variable 
 		break;
 }
 	
 	}
-	if(value==0){
+	if(value==-1){
 		cout<<"number not found";
 	}
 	else{
